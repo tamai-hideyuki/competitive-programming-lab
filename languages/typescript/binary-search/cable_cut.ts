@@ -5,8 +5,31 @@
 // 入力例: L = [8, 15, 20], K = 6
 // 出力例: 7
 
-function solve(): void {
+const solve = (): void => {
   // TODO: implement
+  const L = [8, 15, 20];
+  const K = 6;
+
+  const canGet = (x: number): boolean => {
+    let count = 0;
+    for (const l of L) {
+      count += Math.floor(l / x);
+    }
+    return count >= K;
+  };
+
+  let lo = 1;
+  let hi = Math.max(...L);
+
+  while (lo <= hi) {
+    const mid = Math.floor((lo + hi) / 2);
+    if (canGet(mid)) {
+      lo = mid + 1;
+    } else {
+      hi = mid -1;
+    }
+  }
+  console.log(hi);
 }
 
 solve();
