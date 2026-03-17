@@ -1,0 +1,18 @@
+// 問題: ワーシャルフロイド法
+// N 頂点の重み付きグラフが与えられる。全頂点間の最短距離を求めよ。
+// 
+// 入力例: N = 3, dist = [[0, 5, INF], [INF, 0, 2], [3, INF, 0]]
+// 出力例: [[0, 5, 7], [5, 0, 2], [3, 8, 0]]
+
+package main
+
+import "fmt"
+
+func solve() {
+	// TODO: implement
+}
+
+func main() {
+	solve()
+	fmt.Println()
+}

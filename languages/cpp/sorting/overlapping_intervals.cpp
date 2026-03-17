@@ -1,0 +1,13 @@
+// 問題: 区間の重なり判定
+// 区間のリスト intervals が与えられる。重なりがあるか判定せよ。
+// 
+// 入力例: intervals = [[1, 3], [2, 5], [6, 8]]
+// 出力例: true
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    // TODO: implement
+    return 0;
+}

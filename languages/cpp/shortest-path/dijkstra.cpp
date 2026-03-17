@@ -1,0 +1,14 @@
+// 問題: ダイクストラ法
+// N 頂点 M 辺の重み付き有向グラフが与えられる。
+// 頂点 s から頂点 t への最短距離を求めよ。辺の重みは非負。
+// 
+// 入力例: N = 4, edges = [(0,1,1), (0,2,4), (1,2,2), (2,3,1)], s = 0, t = 3
+// 出力例: 4
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    // TODO: implement
+    return 0;
+}
