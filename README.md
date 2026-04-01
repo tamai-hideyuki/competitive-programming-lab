@@ -52,6 +52,7 @@ done
 | Go | `languages/go/` |
 | TypeScript | `languages/typescript/` |
 | C++ | `languages/cpp/` |
+| PHP | `languages/php/` |
 
 ---
 
