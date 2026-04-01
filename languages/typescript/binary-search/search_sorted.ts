@@ -9,10 +9,14 @@ const solve = (): void => {
   const nums = [1, 3, 5, 7, 9];
   const target = 5;
 
+  //二分探索の探索範囲の左端（下限）を表す変数
   let lo = 0;
+  //配列の末尾インデックス
   let hi = nums.length - 1;
 
+  //「探索範囲がまだ残っている」という条件
   while (lo <= hi) {
+    //探索範囲の中央のインデックスを求めてる
     const mid = Math.floor((lo + hi) / 2);
     if (nums[mid] === target) {
       console.log(mid);
