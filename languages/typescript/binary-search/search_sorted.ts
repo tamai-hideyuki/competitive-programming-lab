@@ -5,8 +5,30 @@
 // 入力例: nums = [1, 3, 5, 7, 9], target = 5
 // 出力例: 2
 
-function solve(): void {
-  // TODO: implement
-}
+const solve = (): void => {
+  const nums = [1, 3, 5, 7, 9];
+  const target = 5;
+
+  let lo = 0;
+  let hi = nums.length - 1;
+
+  while (lo <= hi) {
+    const mid = Math.floor((lo + hi) / 2);
+    if (nums[mid] === target) {
+      console.log(mid);
+      return;
+    } else if (nums[mid] < target) {
+      lo = mid + 1;
+    } else {
+      hi = mid - 1;
+    }
+  }
+
+  console.log(-1);
+};
 
 solve();
+// export {} を書くと、TypeScriptはそのファイルをモジュールとして扱う
+// モジュールでは、ファイル内の変数はすべてそのファイルだけのスコープに閉じ込められる
+// export {} は「何もエクスポートしない」という意味だが、この1行があるだけでTypeScriptが「このファイルはモジュールだ」と判断する仕組み
+export{};
