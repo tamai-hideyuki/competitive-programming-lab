@@ -1,0 +1,17 @@
+// 問題: 合計がKになる部分配列の数
+// 整数配列 nums と整数 K が与えられる。
+// 連続する部分配列の和が K になるものの個数を求めよ。
+//
+// 入力例: nums = [1, 1, 1], K = 2
+// 出力例: 2
+
+class SubarraySumK {
+    static void solve() {
+        // TODO: implement
+    }
+
+    public static void main(String[] args) {
+        solve();
+        System.out.println();
+    }
+}

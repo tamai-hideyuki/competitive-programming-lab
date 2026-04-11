@@ -11,6 +11,9 @@ languages/
 ├── go/
 ├── typescript/
 ├── cpp/
+├── php/
+├── java/
+├── csharp/
 └── <新しい言語>/        ← 言語を追加する場合はここにディレクトリを作成
     ├── brute-force/
     ├── simulation/
@@ -53,6 +56,8 @@ done
 | TypeScript | `languages/typescript/` |
 | C++ | `languages/cpp/` |
 | PHP | `languages/php/` |
+| Java | `languages/java/` |
+| C# | `languages/csharp/` |
 
 ---
 
